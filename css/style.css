@@ -1,0 +1,464 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0px !important;
+    }
+
+    .headerMobile{
+        display: flex !important;
+        flex-direction: column !important;
+        flex: 1 !important;
+    }
+
+    .image-header{
+        display: none;
+    }
+
+    .sushi{
+        flex: 1 !important;
+        width: 250px !important;
+        height: 220px !important;
+        padding: 2%;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .OK{
+        width: 20% !important;
+    }
+
+    .container { 
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 90% !important;
+        padding: 2% 3% 2% 3% !important;
+    }
+
+    .container > .card{ 
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 2% 3% 2% 3% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    input[type=submit] {
+        width: 100% !important;
+        height: 10%;
+        user-select: none;
+        padding: 0% !important;
+      }
+
+    .footer{
+        display: none;
+    }
+
+    .phonenumber{
+        width: 60% !important;
+    }
+
+    h1 {
+        color: #1b2082;
+        font-size: 21px;
+        font-weight: bold;
+        padding: 4px;
+        font-family: Rubik;
+    }
+
+   h2 {
+    color: #921180;
+    font-size: 15px;
+    padding: 4px;
+    font-weight: bold;
+    font-family: Rubik;
+   }
+
+   .size17{
+    font-size: 13px !important;
+    }
+
+   .size18{
+    font-size: 13px !important;
+    }
+
+   .size29 {
+    color: #1b2082;
+    font-size: 29px;
+    padding: 4px;
+    font-weight: bold;
+    font-family: Rubik;
+    text-align: left;
+   }
+
+   p, ul{
+    font-size: 15px;
+   }
+
+.size25{
+font-size: 18px !important;
+}
+
+.size26{
+    font-size: 20px !important;
+    }
+
+.size39{
+    font-size: 28px !important;
+    }
+}
+/* https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery_breakpoints */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* .example {background: pink;} */
+}
+
+body, html, h1, h2, h3, h4, h5, h6, p, div, header, aside, nav, footer{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(fonts/Rubik.eot); 
+    src: url(fonts/pompadur.eot);
+    src: local(Rubik), url(fonts/Rubik.ttf);
+   }
+
+body{
+    background-size: cover;
+    background: white;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    text-decoration-color: #213e62;
+
+}
+
+.headerMobile{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70%;
+    text-align: center;
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.container > .card{ 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: start;
+    color: #1b2082;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+.container > .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #010152;
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 2% 3% 2% 3%;
+}
+
+.container .sentMessage{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #010152;
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 2% 3% 2% 3%;
+}
+
+.box1{
+    align-items: flex-start;
+}
+
+.box1 .sushi{
+    width: 100%;
+    vertical-align: top !important;
+    padding-right: 1%;
+}
+
+.box2{
+    flex-grow: 1.2;
+    
+}
+
+.myInputs{
+    margin: 8px 0px;
+    color: grey;
+    text-align: start;
+    justify-items: center;
+    padding: 2%;
+    width: 99%;
+    height: 5%;
+    padding: 3px;
+}
+
+.field.dropdown > select{
+    margin: 8px 0px;
+    color: grey;
+    text-align: center;
+    padding: 2%;
+    width: 94% !important;
+    height: 64%;
+    background: whitesmoke;
+    user-select: none;
+}
+.field.dropdown > select{
+    background: whitesmoke;
+}
+
+.prefix{
+    padding: 3%;
+    border: 2%;
+    margin: 8% 8% 8% 8%;
+    padding-left: 5%;
+}
+.phonenumber{
+    margin: 8px 0px;
+    color: grey;
+    text-align: start;
+    justify-items: center;
+    padding: 2%;
+    width: 70%;
+    height: 5%;
+    padding: 3px;
+}
+
+    h1 {
+        color: #1b2082;
+        font-size: 21px;
+        font-weight: bold;
+        padding: 4px;
+        font-family: Rubik;
+    }
+
+   h2 {
+    color: #921180;
+    font-size: 15px;
+    padding: 4px;
+    font-weight: bold;
+    font-family: Rubik;
+   }
+
+   .size29 {
+    color: #1b2082;
+    font-size: 29px;
+    padding: 4px;
+    font-weight: bold;
+    font-family: Rubik;
+    text-align: left;
+   }
+
+   p, ul{
+    font-size: 15px;
+   }
+
+   .size17{
+    font-size: 17px;
+   }
+
+   .size18{
+    font-size: 18px;
+   }
+
+    .size25{
+        font-size: 25px;
+        }
+
+    .size26{
+        font-size: 26px;
+        }
+    
+    .size39{
+        font-size: 39px;
+        }
+
+.form{
+    background-size: cover;
+    background: #010152;
+}
+  
+input[type=submit] {
+    background-color: #921180;
+    color: white;
+    border: none;
+    margin: 8px 0px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    width: 65%;
+    height: 10%;
+    transition: all 1s;
+    user-select: none;
+
+  }
+  
+input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+.image-footer{
+    background-repeat: repeat-x;
+    height: 150px;
+    position:relative;
+    width:100%;
+}
+.white{
+    color: white;
+}
+
+.footer{
+    position:relative;
+    width:auto;
+    height:225px;
+  }
+   
+.logo{
+position:absolute;
+top:0;
+right:0;
+}
+
+.OK{
+    display:block;
+    margin: auto;
+}
+
+  #trigger {
+    display: none;
+  }
+  .checker {
+    background-image: url(../img/checkbox.png);
+    background-position: center bottom;
+    background-size: 100% auto;
+    width: 15px;
+    height:15px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+
+  }
+
+  #trigger:checked + .checker {
+    background-position: center top;
+    vertical-align: middle;
+  }
+
+  #trigger1 {
+    display: none;
+  }
+  .checker1 {
+    background-image: url(../img/checkbox.png);
+    background-position: center bottom;
+    background-size: 100% auto;
+    width: 15px;
+    height:15px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+  }
+
+  #trigger1:checked + .checker1 {
+    background-position: center top;
+    vertical-align: middle;
+  }
+
+  #questions {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin: auto;
+    margin-top: 5px;
+    text-align: start;
+  }
+
+  .blocks{
+    display: flex;
+    flex: 1;
+  }
+
+  .blocks > #block1 {
+    flex: 1;
+    order: 1;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 5px;
+    text-align: start;
+  }
+
+  .blocks > #block1 > .fullphonenumber{
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  .blocks > #block1 > .name{
+    flex: 1;
+  }
+
+  .blocks > #block2 {
+    flex: 1;
+    order: 2;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    margin: auto;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #block3 {
+    display: block;
+    text-align: start;
+    margin: 0;
+    margin-top: 5px;
+  }
